@@ -1,0 +1,142 @@
+@media screen and (min-width: 0px) {
+  .experiencia__imagen--encriptador {
+    background: url("/assets/img/encriptador.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 296px;
+    height: 144px;
+    margin: auto;
+    border-radius: 2rem;
+  }
+
+  .experiencia__imagen--ahorcado {
+    background: url("/assets/img/ahorcado.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 296px;
+    height: 144px;
+    margin: auto;
+    border-radius: 2rem;
+    order: -1;
+  }
+  .experiencia__imagen--encriptador2 {
+    background: url("/assets/img/encriptador2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 296px;
+    height: 144px;
+    margin: auto;
+    border-radius: 2rem;
+  }
+
+  .experiencia__imagen--ahorcado2 {
+    background: url("/assets/img/ahorcado2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 296px;
+    height: 144px;
+    margin: auto;
+    border-radius: 2rem;
+    order: -1;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .experiencia__imagen--encriptador {
+    background: url("/assets/img/encriptador.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+  }
+
+  .experiencia__imagen--ahorcado {
+    background: url("/assets/img/ahorcado.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+    order: -1;
+  }
+  .experiencia__imagen--encriptador2 {
+    background: url("/assets/img/encriptador2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+  }
+
+  .experiencia__imagen--ahorcado2 {
+    background: url("/assets/img/ahorcado2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+    order: -1;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .experiencia__imagen--encriptador {
+    background: url("/assets/img/encriptador.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+  }
+
+  .experiencia__imagen--ahorcado {
+    background: url("/assets/img/ahorcado.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    order: 0;
+  }
+  .experiencia__imagen--encriptador2 {
+    background: url("/assets/img/encriptador2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 5rem;
+    border-radius: 2rem;
+  }
+
+  .experiencia__imagen--ahorcado2 {
+    background: url("/assets/img/ahorcado2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    order: 0;
+  }
+}

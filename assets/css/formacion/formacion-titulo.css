@@ -1,0 +1,24 @@
+.formacion__titulo {
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 0px) {
+  .formacion__titulo {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .formacion__titulo {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .formacion__titulo {
+    font-size: 32px;
+  }
+}

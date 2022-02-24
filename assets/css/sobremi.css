@@ -1,0 +1,38 @@
+.sobremi {
+  background-color: #eaf2fd;
+  margin-top: 1rem;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.sobremi__contenido {
+  width: 60%;
+}
+
+@media screen and (min-width: 0px) {
+  .sobremi {
+    padding-left: 2rem;
+  }
+  .sobremi__contenido {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .sobremi {
+    background-color: #eaf2fd;
+    margin-top: 1rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .sobremi__contenido {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .sobremi {
+    padding-left: 10rem;
+  }
+}

@@ -1,0 +1,26 @@
+.contacto__imagen {
+  background: url("/assets/img/telefono.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  width: 484px;
+  height: 630px;
+  margin-left: 4rem;
+}
+@media screen and (min-width: 0px) {
+  .contacto__imagen {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .contacto__imagen {
+    display: none;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .contacto__imagen {
+    display: block;
+  }
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: 0px) {
+  .barraLinks__item {
+    display: flex;
+    margin-right: 1px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .barraLinks__item {
+    display: flex;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .barraLinks__item {
+    display: flex;
+    margin-right: 5%;
+  }
+}

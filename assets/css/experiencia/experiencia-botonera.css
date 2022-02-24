@@ -1,0 +1,33 @@
+@media screen and (min-width: 0px) {
+  .experiencia__botonera--left {
+    margin-top: 1rem;
+  }
+
+  .experiencia__botonera--right {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .experiencia__botonera--left {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .experiencia__botonera--right {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .experiencia__botonera--left {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .experiencia__botonera--right {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}

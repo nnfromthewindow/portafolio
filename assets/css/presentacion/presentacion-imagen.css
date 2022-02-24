@@ -1,0 +1,37 @@
+.presentacion__imagen {
+  background: url("/assets/img/avatar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 0px) {
+  .presentacion__imagen {
+    height: 98px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 98px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .presentacion__imagen {
+    height: 146px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 146px;
+    order: 0;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .presentacion__imagen {
+    height: 368px;
+    margin-left: 8rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    width: 368px;
+    order: 0;
+  }
+}

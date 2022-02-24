@@ -1,0 +1,23 @@
+.barraLinks__link {
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (min-width: 0px) {
+  .barraLinks__link {
+    font-size: 14px;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .barraLinks__link {
+    font-size: 16px;
+    margin-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .barraLinks__link {
+    font-size: 16px;
+    margin-right: 0.5rem;
+  }
+}

@@ -1,0 +1,23 @@
+.presentacion__resumen {
+  font-family: "Raleway", sans-serif;
+
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 0px) {
+  .presentacion__resumen {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .presentacion__resumen {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .presentacion__resumen {
+    font-size: 22px;
+  }
+}

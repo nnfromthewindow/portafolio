@@ -1,0 +1,100 @@
+.contacto {
+  background-color: #eaf2fd;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contacto__input {
+  border-radius: 0.5rem;
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  width: 656px;
+  height: 56px;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+.contacto__campos {
+  margin: 0 auto;
+}
+.contacto__campo {
+  margin: 0 auto;
+  position: relative;
+  width: fit-content;
+}
+.contacto__mensaje--contenedor {
+  margin: auto;
+  margin-top: 1rem;
+  position: relative;
+  width: fit-content;
+}
+.contacto__mensaje {
+  margin: 0 auto;
+}
+.contacto__input--placeholder {
+  color: #2a7ae4;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  left: 0.5rem;
+  position: absolute;
+  margin-top: 1rem;
+  top: 0.5rem;
+}
+.contacto__input--msgholder {
+  color: #2a7ae4;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  left: 0.5rem;
+  position: absolute;
+  margin-top: 0.1rem;
+  top: 0.5rem;
+}
+
+.contacto__textbox {
+  border-radius: 0.5rem;
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  height: 160px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  resize: none;
+}
+@media screen and (min-width: 0px) {
+  .contacto {
+    padding-top: 1rem;
+  }
+  .contacto__input {
+    width: 296px;
+  }
+  .contacto__textbox {
+    width: 296px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .contacto {
+    padding-top: 2rem;
+  }
+  .contacto__input {
+    width: 656px;
+  }
+  .contacto__textbox {
+    width: 656px;
+  }
+
+  @media screen and (min-width: 1360px) {
+    .contacto {
+      padding-top: 6rem;
+    }
+    .contacto__input {
+      width: 656px;
+    }
+  }
+  .contacto__textbox {
+    width: 656px;
+  }
+}

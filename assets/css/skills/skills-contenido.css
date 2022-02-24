@@ -1,0 +1,7 @@
+.skills__contenido {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 66%;
+  justify-content: space-around;
+}

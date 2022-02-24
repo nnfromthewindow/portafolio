@@ -1,0 +1,50 @@
+.experiencia__boton {
+  color: white;
+  background: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  font-family: "Raleway", sans-serif;
+
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+.experiencia__boton--repositorio {
+  color: #2a7ae4;
+  background: white;
+  border: 1px solid #2a7ae4;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 0px) {
+  .experiencia__boton {
+    font-size: 14px;
+    width: 96px;
+    height: 40px;
+    padding: 0rem;
+  }
+  .experiencia__boton--repositorio {
+    font-size: 14px;
+    width: 96px;
+    height: 40px;
+    padding: 0rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .experiencia__boton {
+    font-size: 16px;
+  }
+  .experiencia__boton--repositorio {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .experiencia__boton {
+    font-size: 16px;
+  }
+  .experiencia__boton--repositorio {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,39 @@
+.experiencia__descripcion--left {
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+
+  margin-top: 0.2rem;
+}
+
+.experiencia__descripcion--right {
+  color: #464646;
+  font-family: "Raleway", sans-serif;
+
+  margin-top: 0.2rem;
+}
+
+@media screen and (min-width: 0px) {
+  .experiencia__descripcion--left {
+    font-size: 14px;
+  }
+  .experiencia__descripcion--right {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .experiencia__descripcion--left {
+    font-size: 14px;
+  }
+  .experiencia__descripcion--right {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .experiencia__descripcion--left {
+    font-size: 16px;
+  }
+  .experiencia__descripcion--right {
+    font-size: 16px;
+  }
+}
