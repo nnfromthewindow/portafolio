@@ -1,5 +1,18 @@
-.barraLinks__link {
+.barraLinks__link a {
+  color: #464646;
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+.barraLinks__link a:link {
+  color: #464646;
+}
+.barraLinks__link a:visited {
+  color: #464646;
+}
+.barraLinks__link:hover {
+  transform: scale(1.1, 1.1);
+  transition: 100ms;
+  text-shadow: 1px 1px 5px;
 }
 
 @media screen and (min-width: 0px) {

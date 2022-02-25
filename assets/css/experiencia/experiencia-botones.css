@@ -17,6 +17,19 @@
   padding: 1rem;
 }
 
+.experiencia__boton:hover {
+  background: rgb(57, 92, 167);
+  transform: scale(1.1, 1.1);
+  transition: 100ms;
+  box-shadow: 2px 2px 10px;
+}
+.experiencia__boton--repositorio:hover {
+  background: rgb(231, 225, 213);
+  transform: scale(1.1, 1.1);
+  transition: 100ms;
+  box-shadow: 2px 2px 10px;
+}
+
 @media screen and (min-width: 0px) {
   .experiencia__boton {
     font-size: 14px;

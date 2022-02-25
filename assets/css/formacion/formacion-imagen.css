@@ -1,5 +1,5 @@
 .formacion__imagen {
-  background: url("/assets/img/alura.png");
+  background: url("../../img/alura.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 190px;

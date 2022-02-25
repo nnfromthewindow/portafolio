@@ -1,5 +1,5 @@
 .contacto__imagen {
-  background: url("/assets/img/telefono.png");
+  background: url("../../img/telefono.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
