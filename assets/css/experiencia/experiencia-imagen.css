@@ -7,7 +7,7 @@
     width: 296px;
     height: 144px;
     margin: auto;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
   }
 
   .experiencia__imagen--ahorcado {
@@ -18,7 +18,7 @@
     width: 296px;
     height: 144px;
     margin: auto;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     order: -1;
   }
   .experiencia__imagen--encriptador2 {
@@ -29,7 +29,7 @@
     width: 296px;
     height: 144px;
     margin: auto;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
   }
 
   .experiencia__imagen--ahorcado2 {
@@ -41,7 +41,7 @@
     width: 296px;
     height: 144px;
     margin: auto;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     order: -1;
   }
 }
@@ -55,7 +55,6 @@
     width: 80%;
     height: 30rem;
     margin-left: 5rem;
-    border-radius: 2rem;
   }
 
   .experiencia__imagen--ahorcado {
@@ -66,7 +65,7 @@
     width: 80%;
     height: 30rem;
     margin-left: 5rem;
-    border-radius: 2rem;
+
     order: -1;
   }
   .experiencia__imagen--encriptador2 {
@@ -77,7 +76,6 @@
     width: 80%;
     height: 30rem;
     margin-left: 5rem;
-    border-radius: 2rem;
   }
 
   .experiencia__imagen--ahorcado2 {
@@ -89,7 +87,7 @@
     width: 80%;
     height: 30rem;
     margin-left: 5rem;
-    border-radius: 2rem;
+
     order: -1;
   }
 }
@@ -103,7 +101,6 @@
     width: 50rem;
     height: 30rem;
     margin-left: 5rem;
-    border-radius: 2rem;
   }
 
   .experiencia__imagen--ahorcado {
@@ -114,7 +111,7 @@
     width: 50rem;
     height: 30rem;
     margin-left: 1rem;
-    border-radius: 2rem;
+
     order: 0;
   }
   .experiencia__imagen--encriptador2 {
@@ -125,7 +122,6 @@
     width: 50rem;
     height: 30rem;
     margin-left: 5rem;
-    border-radius: 2rem;
   }
 
   .experiencia__imagen--ahorcado2 {
@@ -136,7 +132,7 @@
     width: 50rem;
     height: 30rem;
     margin-left: 1rem;
-    border-radius: 2rem;
+
     order: 0;
   }
 }
