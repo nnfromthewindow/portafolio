@@ -280,7 +280,8 @@
       </article>
     </section>
 
-    <section class="contacto">
+    <form class="contacto" action="https://formsubmit.co/nuccelli@hotmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
       <div class="contacto__imagen"></div>
       <div class="contacto__contenido">
         <h2 class="contacto__titulo">Contacto</h2>
@@ -294,29 +295,29 @@
         <div class="contacto__campos">
         <div class="contacto__campo">
           <h5 class="contacto__input--placeholder">Nombre</h5>
-          <input type="text" class="contacto__input" />
+          <input class="contacto__input" type="text" name="name" required />
         </div>
         <div class="contacto__campo">
           <h5 class="contacto__input--placeholder">E-mail</h5>
-          <input type="email" class="contacto__input" />
+          <input class="contacto__input" type="email" name="email" required />
         </div>
         <div class="contacto__campo">
           <h5 class="contacto__input--placeholder">Asunto</h5>
-          <input type="text" class="contacto__input" />
+          <input class="contacto__input" type="text" name="asunto" />
         </div>
         <div class="contacto__mensaje">
           <div class="contacto__mensaje--contenedor">
           <h5 class="contacto__input--msgholder">Mensaje</h5>
           <textarea
             class="contacto__textbox"
-            name="textarea"
+            name="mensaje" required
           ></textarea>
           </div>
           </div>
         </div>
         <button type="submit" class="botonEnviar">Enviar mensaje</button>
       </div>
-    </section>
+    </form>
     <footer class="footer">
       <h4 class="footer__desarrollador">Desarrollado por Nicolás Nuccelli</h4>
       <h4 class="footer__año">2022</h4>
