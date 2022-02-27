@@ -291,32 +291,36 @@
             lo antes posible.
           </h4>
         </div>
-        <div class="contacto__campos">
-        <div class="contacto__campo">
+        <form  target="_blank" action="https://formspree.io/f/xwkybkln" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="contacto__campos">
+          <div class="contacto__campo">
           <h5 class="contacto__input--placeholder">Nombre</h5>
-          <input type="text" class="contacto__input" />
-        </div>
-        <div class="contacto__campo">
+          <input type="text" name="name" class="contacto__input" required/>
+          </div>
+          <div class="contacto__campo">
           <h5 class="contacto__input--placeholder">E-mail</h5>
-          <input type="email" class="contacto__input" />
-        </div>
-        <div class="contacto__campo">
+          <input type="email" name="email" class="contacto__input" required/>
+          </div>
+          <div class="contacto__campo">
           <h5 class="contacto__input--placeholder">Asunto</h5>
-          <input type="text" class="contacto__input" />
-        </div>
-        <div class="contacto__mensaje">
-          <div class="contacto__mensaje--contenedor">
-          <h5 class="contacto__input--msgholder">Mensaje</h5>
-          <textarea
+          <input type="text" name="asunto" class="contacto__input" />
+          </div>
+          <div class="contacto__mensaje">
+            <div class="contacto__mensaje--contenedor">
+            <h5 class="contacto__input--msgholder">Mensaje</h5>
+            <textarea
             class="contacto__textbox"
-            name="textarea"
-          ></textarea>
+            name="mensaje" required
+            ></textarea>
+            </div>
+            </div>
           </div>
-          </div>
-        </div>
-        <button type="submit" class="botonEnviar">Enviar mensaje</button>
+          <button type="submit" class="botonEnviar">Enviar mensaje</button>
+        </form>
       </div>
     </section>
+
     <footer class="footer">
       <h4 class="footer__desarrollador">Desarrollado por Nicolás Nuccelli</h4>
       <h4 class="footer__año">2022</h4>
