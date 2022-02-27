@@ -10,9 +10,9 @@
   color: #464646;
 }
 .barraLinks__link:hover {
+  text-shadow: 1px 1px 5px;
   transform: scale(1.1, 1.1);
   transition: 100ms;
-  text-shadow: 1px 1px 5px;
 }
 
 @media screen and (min-width: 0px) {

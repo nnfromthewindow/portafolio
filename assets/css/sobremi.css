@@ -1,9 +1,8 @@
 .sobremi {
   background-color: #eaf2fd;
   margin-top: 1rem;
-
-  padding-top: 3rem;
   padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 .sobremi__contenido {
   width: 60%;
@@ -22,9 +21,9 @@
   .sobremi {
     background-color: #eaf2fd;
     margin-top: 1rem;
+    padding-bottom: 3rem;
     padding-left: 3rem;
     padding-top: 3rem;
-    padding-bottom: 3rem;
   }
   .sobremi__contenido {
     width: 90%;

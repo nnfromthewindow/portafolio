@@ -1,22 +1,21 @@
 .formacion__name {
-  height: 20%;
-  font-family: "Raleway", sans-serif;
   color: #464646;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  text-align: center;
+  height: 20%;
   margin: 0 auto;
   margin-top: 1rem;
+  text-align: center;
   width: 15rem;
 }
 .formacion__name__año {
+  color: #464646;
   height: 20%;
   font-family: "Raleway", sans-serif;
-  color: #464646;
   font-size: 16px;
-
-  text-align: center;
   margin: 0 auto;
   margin-top: 0.5rem;
+  text-align: center;
   width: 15rem;
 }

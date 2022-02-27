@@ -12,31 +12,31 @@
 @media screen and (min-width: 480px) {
   .experiencia__contenido--left {
     margin-left: 6rem;
-    width: fit-content;
     padding-top: 1rem;
     text-align: left;
+    width: fit-content;
   }
 
   .experiencia__contenido--right {
     margin-left: 6rem;
-    width: fit-content;
     padding-top: 1rem;
     text-align: left;
+    width: fit-content;
   }
 }
 
 @media screen and (min-width: 1360px) {
   .experiencia__contenido--left {
     margin-left: 3rem;
-    width: 30%;
     padding-top: 10rem;
     text-align: left;
+    width: 30%;
   }
 
   .experiencia__contenido--right {
     margin-left: 3rem;
-    width: 30%;
     padding-top: 7rem;
     text-align: left;
+    width: 30%;
   }
 }

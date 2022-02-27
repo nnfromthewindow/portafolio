@@ -1,7 +1,7 @@
 .item__name {
-  height: 20%;
-  font-family: "Raleway", sans-serif;
   color: #464646;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: bold;
+  height: 20%;
 }

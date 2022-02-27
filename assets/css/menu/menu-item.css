@@ -1,6 +1,6 @@
 .logotop {
-  display: flex;
   align-items: center;
+  display: flex;
   padding-left: 3rem;
 }
 
@@ -13,9 +13,9 @@
   width: 8rem;
 }
 .logotop:hover {
+  text-shadow: 2px 2px 10px;
   transform: scale(1.1, 1.1);
   transition: 100ms;
-  text-shadow: 2px 2px 10px;
 }
 .menu__item {
   font-family: "Raleway", sans-serif;

@@ -12,9 +12,10 @@
   color: #464646;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  width: 656px;
   height: 56px;
   margin-top: 1rem;
+  width: 656px;
+  outline: none;
   padding-top: 0.5rem;
   padding-left: 1rem;
 }
@@ -40,8 +41,8 @@
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   left: 0.5rem;
-  position: absolute;
   margin-top: 1rem;
+  position: absolute;
   top: 0.5rem;
 }
 .contacto__input--msgholder {
@@ -49,29 +50,38 @@
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   left: 0.5rem;
-  position: absolute;
   margin-top: 0.1rem;
+  position: absolute;
   top: 0.5rem;
 }
 
 .contacto__textbox {
   border-color: #464646;
   border-radius: 0.5rem;
+  border-width: 2px;
   color: #464646;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   height: 160px;
+  outline: none;
   padding-left: 1rem;
   padding-top: 2rem;
   resize: none;
-  border-width: 2px;
 }
-.contacto__textbox:hover {
+
+.contacto__input:focus {
   border-bottom: 2px solid #2a7ae4;
+  border-left: 2px solid #464646;
+  border-right: 2px solid #464646;
+  border-top: 2px solid #464646;
 }
-.contacto__input:hover {
+.contacto__textbox:focus {
   border-bottom: 2px solid #2a7ae4;
+  border-left: 2px solid #464646;
+  border-right: 2px solid #464646;
+  border-top: 2px solid #464646;
 }
+
 @media screen and (min-width: 0px) {
   .contacto {
     padding-top: 1rem;

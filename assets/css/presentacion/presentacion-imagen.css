@@ -1,14 +1,14 @@
 .presentacion__imagen {
   background: url("../../img/avatar.jpg");
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 100%;
 }
 .presentacion__imagen:hover {
-  transition: 100ms;
   box-shadow: 2px 5px 20px;
   opacity: 90%;
+  transition: 100ms;
 }
 
 @media screen and (min-width: 0px) {
@@ -25,8 +25,8 @@
     height: 146px;
     margin-left: 1rem;
     margin-top: 2rem;
-    width: 146px;
     order: 0;
+    width: 146px;
   }
 }
 
@@ -36,7 +36,7 @@
     margin-left: 8rem;
     margin-right: 1rem;
     margin-top: 5rem;
-    width: 368px;
     order: 0;
+    width: 368px;
   }
 }
