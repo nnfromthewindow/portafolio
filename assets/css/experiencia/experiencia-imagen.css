@@ -4,10 +4,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0.5rem;
+    width: 296px;
     height: 144px;
     margin: auto;
-    width: 296px;
+    border-radius: 0.5rem;
   }
 
   .experiencia__imagen--ahorcado {
@@ -15,34 +15,34 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0.5rem;
+    width: 296px;
     height: 144px;
     margin: auto;
+    border-radius: 0.5rem;
     order: -1;
-    width: 296px;
   }
-  .experiencia__imagen--encriptador2 {
-    background: url("../../img/encriptador2.jpeg");
+  .experiencia__imagen--geek {
+    background: url("../../img/alurageekprev.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.5rem;
+    background-size: auto;
+    width: 296px;
     height: 144px;
     margin: auto;
-    width: 296px;
+    border-radius: 0.5rem;
   }
 
-  .experiencia__imagen--ahorcado2 {
-    background: url("../../img/ahorcado2.jpeg");
+  .experiencia__imagen--conversor {
+    background: url("../../img/conversorpreview.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
-    border-radius: 0.5rem;
+    width: 296px;
     height: 144px;
     margin: auto;
+    border-radius: 0.5rem;
     order: -1;
-    width: 296px;
   }
 }
 
@@ -52,9 +52,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 80%;
     height: 30rem;
     margin-left: 5rem;
-    width: 80%;
   }
 
   .experiencia__imagen--ahorcado {
@@ -62,31 +62,32 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 80%;
     height: 30rem;
     margin-left: 5rem;
+
     order: -1;
-    width: 80%;
   }
-  .experiencia__imagen--encriptador2 {
-    background: url("../../img/encriptador2.jpeg");
+  .experiencia__imagen--geek {
+    background: url("../../img/alurageekprev.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 80%;
     height: 30rem;
     margin-left: 5rem;
-    width: 80%;
   }
 
-  .experiencia__imagen--ahorcado2 {
-    background: url("../../img/ahorcado2.jpeg");
+  .experiencia__imagen--conversor {
+    background: url("../../img/conversorpreview.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 80%;
     height: 30rem;
     margin-left: 5rem;
     order: -1;
-    width: 80%;
   }
 }
 
@@ -96,9 +97,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 50rem;
     height: 30rem;
     margin-left: 5rem;
-    width: 50rem;
   }
 
   .experiencia__imagen--ahorcado {
@@ -106,29 +107,30 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 50rem;
     height: 30rem;
     margin-left: 1rem;
+
     order: 0;
-    width: 50rem;
   }
-  .experiencia__imagen--encriptador2 {
-    background: url("../../img/encriptador2.jpeg");
+  .experiencia__imagen--geek {
+    background: url("../../img/alurageekprev.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 50rem;
     height: 30rem;
     margin-left: 5rem;
-    width: 50rem;
   }
 
-  .experiencia__imagen--ahorcado2 {
-    background: url("../../img/ahorcado2.jpeg");
+  .experiencia__imagen--conversor {
+    background: url("../../img/conversorpreview.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 50rem;
     height: 30rem;
     margin-left: 1rem;
     order: 0;
-    width: 50rem;
   }
 }
